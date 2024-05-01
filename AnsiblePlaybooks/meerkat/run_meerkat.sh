@@ -32,7 +32,7 @@ done
 if [ -z ${KEYPAIR+x} ]; then echo "Please provide the name of a key pair to access VMs"; exit; fi
 
 
-cd ~/cloud-ops-tools/AnsiblePlaybooks/meerkat
+cd ~/dev/cloud-ops-tools/AnsiblePlaybooks/meerkat
 
 terraform init
 terraform destroy --auto-approve

@@ -4,12 +4,12 @@
 
 variable "user"{
     description = "username for file pathing"
-    default = "<user>"
+    default = "diz41711"
 }
 
 variable "playbook_path" {
     description = "Path to playbook to be run"
-    default = "/home/<user>/cloud-ops-tools/AnsiblePlaybooks/meerkat/meerkat.yaml"
+    default = "/home/diz41711/dev/cloud-ops-tools/AnsiblePlaybooks/meerkat/meerkat.yaml"
 }
 
 ##############################################################
@@ -30,7 +30,7 @@ variable "image_name" {
 
 variable "keypair_name" {
     description = "The keypair to be used"
-    default  = 
+    default  = "keyless"
 }
 
 variable "network_name" {
